@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Load URLs At Interval</title>
+  <link rel="stylesheet" type="text/css" href="static/css/main.css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+  <div class="">
+    <header>
+      <h1>Load URLs At Interval</h1>
+      <img class="logo" src="logo.png" alt="AutoRefresh logo" />
+    </header>
+    <div id="time">
+      <h2>Your URLs (comma seperated):</h2>
+      <section>
+        <textarea rows="5" cols="80" id="urls" style="resize: none;"></textarea>
+      </section>
+      <h2>Reload Interval:</h2>
+      <section>
+        <input type="number" value="15" min="0" id="seconds" step="1" pattern="\d+" />
+        <span class="label">Seconds</span>
+      </section>
+    </div>
+    <section class="btns">
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+      <span class="label"></span>
+    </section>
+  </div>
+  <script type="text/javascript" src="static/js/jquery.min.js"></script>
+  <script type="text/javascript" src="static/js/popup.js"></script>
+</body>
+
+</html>

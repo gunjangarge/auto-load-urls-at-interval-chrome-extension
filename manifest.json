@@ -1,0 +1,19 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html",
+      "default_title": "Load URLs At Interval"
+   },
+   "description": "'Load URLs At Interval' is extension to load URLs from a list in same tab at a given interval",
+   "icons": {
+      "128": "icon.png",
+      "16": "icon.png",
+      "48": "icon.png"
+   },
+   "manifest_version": 2,
+   "name": "Load URLs At Interval",
+   "version": "1.0.0"
+}

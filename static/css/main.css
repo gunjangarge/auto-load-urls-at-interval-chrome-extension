@@ -1,0 +1,147 @@
+* {
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 300px;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  background: #f7f7f7;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 0px;
+  padding: 0;
+  font-weight: normal;
+  letter-spacing: 1.1px;
+}
+
+h2 {
+  color: #673ab7;
+  font-size: 17px;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+
+#time {
+  overflow: hidden;
+  padding: 0 15px;
+  margin-top: -10px;
+}
+
+#time .label {
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  background: #673ab7;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0 5px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  border-radius: 0 5px 5px 0;
+  cursor: default;
+}
+
+#time input {
+  padding: 5px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background-color: #e8edee;
+  height: 35px;
+  color: #673ab7;
+  font-size: 17px;
+  display: block;
+  margin: 0;
+  outline: none;
+  padding-right: 55px;
+  margin-bottom: 12px;
+}
+
+#time textarea {
+  padding: 5px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background-color: #e8edee;
+  color: #673ab7;
+  font-size: 17px;
+  display: block;
+  margin: 0;
+  outline: none;
+  padding-right: 55px;
+  margin-bottom: 12px;
+}
+
+#time section {
+  position: relative;
+}
+
+.btns {
+  width: 100%;
+  margin-top: 10px;
+}
+
+button {
+  width: 100%;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  padding: 20px;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+#start {
+  background: #004d40;
+}
+
+#stop {
+  background: #9b0000;
+}
+
+header {
+  display: flex;
+  font-size: 17px;
+  padding: 10px;
+  background-color: #673ab7;
+  color: #fff;
+  align-items: center;
+  overflow: visible;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+footer {
+  display: block;
+  margin-top: 10px;
+  padding: 5px;
+  border-top: 1px solid #ddd;
+  font-size: 12px;
+  text-align: right;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+#stop {
+  display: none;
+}
